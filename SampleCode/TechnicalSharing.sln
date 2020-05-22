@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UBConsole", "OOPConsole\UBConsole.csproj", "{F015B9FB-6853-4304-8C38-D44D5A52AABB}"
 EndProject
@@ -22,6 +22,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OneLayer", "OneLayer", "{EDCCCAC0-5053-49B2-B047-344DB9BF2A23}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiLayer", "MultiLayer", "{6EFA93E7-07A9-4920-8BD1-A17B5B6E5EC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SignalR", "SignalR", "{BA871E1A-9C57-4E14-8BDE-7380E604E76C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSample", "SignalRSample\SignalRSample.csproj", "{1E435141-5BC4-4B23-B25D-65786A4FEAED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +53,10 @@ Global
 		{9A82814E-CFED-4A8C-8FD9-02A246E4A145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A82814E-CFED-4A8C-8FD9-02A246E4A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A82814E-CFED-4A8C-8FD9-02A246E4A145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E435141-5BC4-4B23-B25D-65786A4FEAED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E435141-5BC4-4B23-B25D-65786A4FEAED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E435141-5BC4-4B23-B25D-65786A4FEAED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E435141-5BC4-4B23-B25D-65786A4FEAED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,8 @@ Global
 		{7E5BFB30-1850-4100-AD10-1D34E39AF57A} = {D8DDC55E-2781-41B7-B495-066A74461A51}
 		{EDCCCAC0-5053-49B2-B047-344DB9BF2A23} = {7E5BFB30-1850-4100-AD10-1D34E39AF57A}
 		{6EFA93E7-07A9-4920-8BD1-A17B5B6E5EC2} = {7E5BFB30-1850-4100-AD10-1D34E39AF57A}
+		{BA871E1A-9C57-4E14-8BDE-7380E604E76C} = {D8DDC55E-2781-41B7-B495-066A74461A51}
+		{1E435141-5BC4-4B23-B25D-65786A4FEAED} = {BA871E1A-9C57-4E14-8BDE-7380E604E76C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672C83D-31EF-4AB1-839B-DBAE1CC737ED}
